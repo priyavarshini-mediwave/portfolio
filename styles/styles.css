@@ -150,10 +150,8 @@ section {
 
 /*Header-content*/
 .header-content {
-  margin: auto;
-  max-width: 1000px;
-  margin-top: 50px;
-  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
 }
 .header-content .left-header {
@@ -191,11 +189,10 @@ section {
   filter: grayscale(0);
 }
 .header-content .right-header {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem; */
-  text-align: center;
+  padding-right: 18rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
