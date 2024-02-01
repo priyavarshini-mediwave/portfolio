@@ -335,6 +335,12 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .Sql {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Sequelize {
+  width: 70%;
+}
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
