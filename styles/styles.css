@@ -492,7 +492,11 @@ section {
   opacity: 1;
   transform: scale(1);
 }
-
+.description {
+  border-radius: 14px;
+  border: 1px solid;
+  padding: 2px;
+}
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
